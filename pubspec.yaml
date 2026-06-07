@@ -1,0 +1,32 @@
+name: smashhome
+description: SmashHome - Умный дом в вашем смартфоне
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0' 
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_riverpod: ^2.4.9
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
